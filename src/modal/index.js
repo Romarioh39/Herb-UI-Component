@@ -24,13 +24,14 @@ class Modal extends Component {
   //    return null
 
    return (
-     <div>
-       <div>
-         Hi I am the Modal
-         <button onClick={this.props.toggleModal}>
-          Close Modal
-         </button>
-       </div>
+     <div className="body">
+      <button onClick={this.props.toggleModal}>Close Modal</button>
+       <main id="Modal">
+         <div className="modal-content">
+          <span className="closeBtn">&times;</span>
+          <p>Hi I am the Modal</p>
+         </div>
+       </main>
      </div>
    )
  }
