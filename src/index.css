@@ -3,3 +3,82 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.herb-modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 145%;
+  width: 110%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  /* display: none; */
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  opacity: 0.8;
+}
+
+input {
+  width: 50%;
+  display: block;
+  margin: 15px auto;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.container {
+position: relative;
+text-align: center;
+background-size: contain;
+}
+
+
+.text-content {
+  background-color: #ddd;
+  opacity: 0.7;
+  padding: 100px;
+  width: 50%;
+  display: block;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%)
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: cadetblue;
+  background-color: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #ddd;
+  text-decoration: none;
+}
+
+.button:hover {background-color: #fff}
+
+.button:active {
+  background-color: #ddd;
+  box-shadow: 0 5px #666;
+}
