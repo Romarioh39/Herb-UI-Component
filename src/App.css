@@ -16,7 +16,7 @@ button:hover{
   background: #333;
 }
 
-.bg-modal {
+.herb-modal {
   display: none;
   position: absolute;
   z-index: 1;

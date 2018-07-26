@@ -5,32 +5,36 @@ body {
 }
 .herb-modal {
   display: none;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   position: absolute;
-  left: 0;
-  top: 0;
-  height: 145%;
-  width: 110%;
-  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 30.1em;
+  margin-left: 19em;
+  /* left: 1%;
+  top: 1%;
+  right: 1%;
+  bottom: 1%; */
+  /* height: 100%;
+  width: 100%; */
+  /* background-color: rgba(0, 0, 0, 0.7); */
 }
 
 .modal-content {
   /* display: flex; */
-  width: 600px;
+  width: 54.4em;
   height: 200px;
   background-color: white;
   position: absolute;
   top: 0;
   border-radius: 4px;
   text-align: center;
-  padding: 20px;
+  padding: 68px;
   position: relative;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 input {
-  width: 50%;
+  width: 100%;
   display: block;
   margin: 15px auto;
 }
@@ -46,7 +50,7 @@ input {
 
 .container {
   display: flex;
-position: relative;
+position: absolute;
 text-align: center;
 background-size: contain;
 }
@@ -82,4 +86,4 @@ background-size: contain;
 .button:active {
   background-color: #ddd;
   box-shadow: 0 5px #666;
-}
+} 
