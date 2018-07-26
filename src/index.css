@@ -16,9 +16,9 @@ body {
 }
 
 .modal-content {
-  /* display: none; */
-  width: 500px;
-  height: 300px;
+  /* display: flex; */
+  width: 600px;
+  height: 200px;
   background-color: white;
   position: absolute;
   top: 0;
@@ -45,6 +45,7 @@ input {
 }
 
 .container {
+  display: flex;
 position: relative;
 text-align: center;
 background-size: contain;

@@ -14,6 +14,16 @@ window.onload=function(){
     function() {
       document.querySelector('.herb-modal').style.display = 'none';
   });
+
+  document.getElementById('button').addEventListener('click',
+  function() {
+    document.querySelector('.container').style.display = 'flex';
+  });
+
+  document.querySelector('.closing').addEventListener('click',
+    function() {
+      document.querySelector('.herb-modal').style.display = 'none';
+  });
 }
 
 class Modal extends Component {
@@ -21,7 +31,7 @@ class Modal extends Component {
    return (
      <main>
       <section class="container">
-       <img src="3.jpg" alt="" />
+      <button id="close" class="closing" onClick="javascript:close_clip()"><img src="3.jpg" /></button>
         <div class="text-content">
           <h1>Let's create a modal</h1>
           <h3>Sign Up Now</h3>
